@@ -1,29 +1,26 @@
 # iot-2
 
-Discente: Nicolas Santana Lopes
-
-Docente: Amanda Paul Dull
+Discente: Nicolas Santana Lopes  
+Docente: Amanda Paul Dull  
 
 Esse repositório serve de exemplo para a entrega de atividades da matéria de IoT.
 
-[![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)](https://www.tinkercad.com/things/gzcCF6GhFek-acendedor-de-led-3000?sharecode=oJlNj4IwWi4yJ-hbwXRkpEibq6Wei9GqDSi0qM2b9bM)
+[![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)](https://www.tinkercad.com)
 
-## Enunciado: Vamos ligar o LED!
+## Enunciado: Controle de Servomotor com Potenciômetro
 
-O projeto vai utilizar um botão como entrada para controlar um LED como saída. Ao pressionar o botão, o Arduino altera o estado do LED — cada clique liga ou desliga, funcionando como um interruptor eletrônico.
+O projeto consiste em controlar o ângulo de rotação de um micro servomotor utilizando um potenciômetro como entrada analógica. O Arduino lê o valor de tensão do potenciômetro, mapeia a leitura (0 a 1023) para a escala de ângulos (0° a 180°) e ajusta a posição do servo motor proporcionalmente.
 
-- O Arduino lê o estado do botão pelo **pino 7**
-- Controla o LED pelo **pino 10**
+- **Entrada Analógica (Potenciômetro):** Pino **A0**
+- **Saída PWM (Servomotor):** Pino **9**
 
-## Materiais necessários
+## Materiais Necessários
 
 | Qtd | Componente |
-|-----|------------|
+| :--- | :--- |
 | 1 | Placa Arduino UNO |
 | 1 | Cabo USB |
 | 1 | Protoboard |
-| 1 | Resistor de 200 Ω ou 220 Ω |
-| 1 | Resistor de 10 kΩ |
-| 1 | Botão tipo push button |
-| 1 | LED vermelho difuso de 5 mm |
-| — | Fios de jumper macho-macho |
+| 1 | Potenciômetro (ex: 10 kΩ) |
+| 1 | Micro Servo Motor |
+| — | Fios de Jumper Macho-Macho |
