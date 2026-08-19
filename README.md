@@ -1,6 +1,6 @@
 # iot-1
 
-Discente: Ícaro Caldeira Botelho
+Discente: Nicolas Santana Lopes
 
 Docente: Amanda Paul Dull
 
